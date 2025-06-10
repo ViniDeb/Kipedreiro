@@ -1,0 +1,6 @@
+@media (max-width: 728px) {
+    #container_header ul{
+        display: none;
+    }
+    
+}
