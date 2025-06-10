@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+/* #region Import */
+@import url(variaveis.css);
+@import url(responsive.css);
+/* #endregion Import */
+
+
+/* #region Global */
+* {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+body {
+    margin: 0;
+
+}
+
+/* #endregion Global */
+
+
+/* #region header */
+#container_header {
+    display: flex;
+    background-color: var(--back_color_elements_all);
+    justify-content: space-between;
+    margin: 0;
+    position: relative;
+}
+
+#container_header .logo .logo_image {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#container_header .navbar_menu ul {
+    display: flex;
+}
+
+#container_header .navbar_menu ul a {
+    padding: 0px 5px;
+    color: black;
+}
+
+/* #endregion header */
+
+/* #region main */
+
+#container_main .banner_hero {
+    background-image: url(../imgs/banners/banner1.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+}
+
+#container_main .banner_hero .box_banner {
+    width: 100%;
+    background-color: var(--back_color_elements_all);
+}
+
+
+/* CARDS */
+.cards {
+    text-align: center;
+    margin: auto;
+    padding: 2rem 0;
+}
+
+
+.card_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    font-size: large;
+}
+
+.card_item {
+    text-align: center;
+    margin: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 280px;
+        background-color: var(--back_color_elements_all);
+        border: 1px solid black;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+
+.testemunhos {
+    padding: 3rem 1rem;
+}
+
+.testemunhos_container {
+    text-align: center;
+    border-radius: 20px;
+    background-color: var(--back_color_elements_all);
+    border: 2px solid black;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.testemunhos_card {
+    flex-basis: 400px;
+    padding: 1.5rem;
+    
+    margin-bottom: 1rem;
+}
+
+.testemunhos blockquote {
+    margin-bottom: 2rem;
+}
+
+.testemunhos cite {
+    font-weight: bold;
+    color: white;
+}
+/* #endregion main */
+
+/* #region footer */
+/* #endregion footer */
