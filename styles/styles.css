@@ -105,20 +105,22 @@ body {
 }
 
 .testemunhos_container {
+    padding: 10px;
     text-align: center;
     border-radius: 20px;
     background-color: var(--back_color_elements_all);
     border: 2px solid black;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
 }
 
 .testemunhos_card {
-    flex-basis: 400px;
-    padding: 1.5rem;
-    
+    flex-basis: 300px;
+    justify-content: center;
     margin-bottom: 1rem;
+    border-left: 2px dashed black;
 }
 
 .testemunhos blockquote {
